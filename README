@@ -6,6 +6,7 @@ This repository contains the content and supplementary materials for the paper t
 
 Smart contracts are self-executing contracts with the terms of the agreement directly written into code. While they offer significant advantages, such as automation and trust, they are also susceptible to various vulnerabilities. This paper presents a novel two-stage detection approach combining semantic features and graph features to identify vulnerabilities in smart contracts effectively.
 
+
 ### Key Contributions
 
 - **Semantic Feature Extraction**: The proposed method utilizes advanced natural language processing techniques to extract semantic features from smart contract code.
