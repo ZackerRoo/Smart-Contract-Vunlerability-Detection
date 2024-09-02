@@ -1,0 +1,61 @@
+# Two-Stage Smart Contract Vulnerability Detection Combining Semantic Features and Graph Features
+
+This repository contains the content and supplementary materials for the paper titled **"Two-Stage Smart Contract Vulnerability Detection Combining Semantic Features and Graph Features"** by **Zhenkun Luo et al.**, presented at the **2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)**.
+
+## Paper Overview
+
+Smart contracts are self-executing contracts with the terms of the agreement directly written into code. While they offer significant advantages, such as automation and trust, they are also susceptible to various vulnerabilities. This paper presents a novel two-stage detection approach combining semantic features and graph features to identify vulnerabilities in smart contracts effectively.
+
+### Key Contributions
+
+- **Semantic Feature Extraction**: The proposed method utilizes advanced natural language processing techniques to extract semantic features from smart contract code.
+- **Graph-Based Detection**: The approach leverages graph neural networks to capture the structural properties of smart contracts, enabling more accurate vulnerability detection.
+- **Two-Stage Detection Pipeline**: The integration of both semantic and graph features provides a comprehensive analysis, significantly improving the detection accuracy over traditional methods.
+
+## Repository Structure
+
+- **MyModel.py**: The main script that implements the two-stage smart contract vulnerability detection model.
+- **requirements.txt**: A list of dependencies required to run the project.
+- **train.json**: JSON file containing the primary training dataset for the model.
+- **test.json**: JSON file containing the primary testing dataset for the model.
+- **train_sourcecode1.json**: JSON file with additional source code data used for training.
+- **test_sourcecode1.json**: JSON file with additional source code data used for testing.
+
+## Getting Started
+
+To set up and run the project, follow these steps:
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine using the following command:
+
+```
+bash
+- git clone https://github.com/lzk12345678/Smart-Contract-Vunlerability-Detection.git
+```
+### 2. Install Dependencies
+cd your-repo
+pip install -r requirements.txt
+
+### 3. Run the Model
+python MyModel.py
+
+### Requirements
+# Ensure that your environment meets the following requirements:
+# Python 3.8+: The project is compatible with Python 3.8 and above.
+# Required Libraries: All required Python packages are listed in the requirements.txt file and can be installed using pip.
+
+### Citation
+If you find this work useful in your research, please consider citing it as follows:
+@inproceedings{luo2023twostage,
+  title={Two-Stage Smart Contract Vulnerability Detection Combining Semantic Features and Graph Features},
+  author={Luo, Zhenkun and others},
+  booktitle={2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
+  year={2023},
+  organization={IEEE}
+}
+
+### Contact
+For any questions, suggestions, or collaboration inquiries, please contact Zhenkun Luo at l1352687155@gmail.com.
+
+
